@@ -1,0 +1,28 @@
+.footer {
+    background: var(--primary-main, #120b48);
+    padding-block: 6.125rem;
+  }
+  
+  .footer .cc-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .footer .cc-container .footer-list {
+    display: flex;
+    color: #fff;
+    margin-left: 15.1875rem;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .footer-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+  }
+  
+  .footer-list ul li:nth-child(1) {
+    font-weight: 600;
+  }
+  
